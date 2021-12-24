@@ -27,3 +27,17 @@ That's why I decided to get a second profession.
 * GitHub
 * Git
 * VSCode
+
+## Code example
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Some code</title>
+    </head>
+        <body>
+        <h1>Just some html code</h1>
+        <p>As an example</p>
+        </body>
+</html>            
+```
