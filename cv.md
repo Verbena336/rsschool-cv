@@ -41,3 +41,16 @@ That's why I decided to get a second profession.
         </body>
 </html>            
 ```
+## Education
+
+* St.Petersburg Conservatory
+* [Code-basics](https://ru.code-basics.com/languages/html) HTML Course
+* [Code-basics](https://ru.code-basics.com/languages/css) CSS Course
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* [Hexlet](https://ru.hexlet.io/courses/intro_to_git) Git Course (in progress)
+
+## Languages
+
+* **Russian** - native
+* **English** - A2-B1
+* **Japanese** - N5
