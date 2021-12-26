@@ -1,11 +1,21 @@
 .container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: springgreen;
 }
 
 .container div {
-    padding: 50px;
+    padding: 100px;
     border: 5px dotted red;
     background-color: rgb(107, 173, 235);
+}
+
+.box1 {
+
+}
+
+.box2 {
+
 }
