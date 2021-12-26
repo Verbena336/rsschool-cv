@@ -13,7 +13,8 @@
 }
 
 .box1 {
-
+    align-self: center;
+    font: 30px/2 Arial, sans-serif;
 }
 
 .box2 {
