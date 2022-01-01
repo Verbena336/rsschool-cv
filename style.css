@@ -1,18 +1,212 @@
-.container {
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(assets/fonts/Montserrat-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #4b3e49;
+    font-family: 'Montserrat', sans-serif;
+    color: #554552;
+}
+
+.container {
+    max-width: 1400px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.nav-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    align-items: flex-end;
-    background-color: springgreen;
+    align-items: center;
+    list-style: none;
+    line-height: 70px;
+    background-color: #806f62;
 }
 
-.container div {
-    padding: 100px;
-    border: 5px dotted red;
-    background-color: rgb(107, 173, 235);
+.nav-link {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ebedea;
 }
 
-.box1 {
-    align-self: center;
-    font: 30px/2 Arial, sans-serif;
+.nav-link:hover {
+    transition: .5s;
+    color: #3c2f3a;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.profile-info {
+    background-color: #cecfc3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.name {
+    font-size: 70px;
+    color: #292128;
+    font-weight: 500;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 3px solid #3c2f3a;
+}
+
+.profession {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px;
+    color: #292128;
+}
+.main {
+    flex: 1 1 auto;
+}
+
+.contact-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    line-height: 20px;
+    background-color: #806f62;
+}
+
+.contact-item {
+    padding: 20px;
+    font-size: 20px;
+    color: #ebedea;
+}
+
+.contact-link {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #d4cba3;
+}
+
+.contact-link:hover {
+    transition: .5s;
+    color: #3c2f3a;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ebedea;
+    font-size: 25px;
+}
+
+.section-big {
+    width: 60%;
+    padding: 20px;
+    border-bottom: 5px solid #cecfc3;
+    margin: 0 30px;
+}
+
+.section-small {
+    width: 30%;
+    padding: 20px;
+    border-bottom: 5px solid #cecfc3;
+    margin: 0 30px; 
+}
+
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.education-list {
+    list-style: none;
+    padding: 0;
+}
+
+.education-link {
+    text-decoration: none;
+    font-size: 25px;
+    color: #b97e30;
+}
+
+.education-link:hover {
+    transition: .5s;
+    color: #3c2f3a;
+}     
+
+.languages-list {
+    list-style: none;
+    padding: 0;
+}
+
+.section-title {
+    color: #979183;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 70px;
+}
+
+.footer-info {
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #806f62;
+    color: #ebedea;
+    font-size: 20px;
+    
+}
+
+.rs-logo {
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/images/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.github {
+    width: 60px;
+    height: 60px;
+    background-image: url(./assets/images/github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.code-example {
+    background-color: #979183;
 }
