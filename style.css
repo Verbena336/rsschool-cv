@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -10,8 +8,8 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #4b3e49;
     font-family: 'Montserrat', sans-serif;
+    background-color: #4b3e49;
     color: #554552;
 }
 
@@ -53,7 +51,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: stretch;
 }
 
 .profile-info {
@@ -63,13 +60,13 @@ body {
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    text-align: center;
 }
 
 .name {
     font-size: 70px;
     color: #292128;
     font-weight: 500;
+    letter-spacing: 3px;
     margin: 0;
     padding: 10px;
     border-bottom: 3px solid #3c2f3a;
@@ -79,14 +76,20 @@ body {
     font-size: 30px;
     font-weight: 500;
     margin: 10px;
+    letter-spacing: 5px;
     color: #292128;
 }
+
+.profile-photo {
+    padding: 0 100px 0 0;
+    background-color: #cecfc3;
+}
+
 .main {
     flex: 1 1 auto;
 }
 
 .contact-list {
-    width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -123,13 +126,6 @@ body {
     font-size: 25px;
 }
 
-.section-big {
-    width: 60%;
-    padding: 20px;
-    border-bottom: 5px solid #cecfc3;
-    margin: 0 30px;
-}
-
 .section-small {
     width: 30%;
     padding: 20px;
@@ -137,10 +133,10 @@ body {
     margin: 0 30px; 
 }
 
-
-.skills-list {
-    list-style: none;
-    padding: 0;
+.section-title {
+    color: #979183;
+    letter-spacing: 3px;
+    font-weight: 500;
 }
 
 .education-list {
@@ -157,43 +153,46 @@ body {
 .education-link:hover {
     transition: .5s;
     color: #3c2f3a;
-}     
+}
+
+.section-big {
+    width: 60%;
+    padding: 20px;
+    border-bottom: 5px solid #cecfc3;
+    margin: 0 30px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.code-example {
+    background-color: #979183;
+    width: 500px;
+}
+
+.project-image {
+    width: 80%;
+}
 
 .languages-list {
     list-style: none;
     padding: 0;
 }
 
-.section-title {
-    color: #979183;
-    letter-spacing: 3px;
-    font-weight: 500;
-}
 .footer {
-    width: 100%;
-    margin: 0;
-    padding: 0;
     line-height: 70px;
 }
 
 .footer-info {
-    height: min-content;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: #806f62;
     color: #ebedea;
-    font-size: 20px;
-    
-}
-
-.rs-logo {
-    width: 121px;
-    height: 45px;
-    background-image: url(./assets/images/rs_school_js.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    font-size: 20px; 
 }
 
 .github {
@@ -204,7 +203,10 @@ body {
     background-repeat: no-repeat;
 }
 
-.code-example {
-    background-color: #979183;
-    width: 500px;
+.rs-logo {
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/images/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
