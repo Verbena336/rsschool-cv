@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'Montserrat', sans-serif;
-    src: url(assets/fonts/Montserrat-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     box-sizing: border-box;
@@ -24,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 }
 
 .nav-list {
@@ -209,4 +206,5 @@ body {
 
 .code-example {
     background-color: #979183;
+    width: 500px;
 }
