@@ -1,21 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CV2</title>
+    <link rel="icon" href="./images/icons/Thesquid.ink-Free-Flat-Sample-Owl.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Natalia Byzova</title>
 </head>
 <body>
-    <div class="container">
-        <div class="box1">
-            <h1>Natalia Byzova</h1>
-            <p>Begginer Frontend Developer</p>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#code" class="nav-link">Code Example</a></li>
+                    <li><a href="#project" class="nav-link">Project</a></li>
+                    <li><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+            <div class="profile">
+                <div class="profile-info">
+                    <h1 class="name">Natalia Byzova</h1>
+                    <h2 class="profession">Beginner Frontend Developer</h2>
+                </div>
+                <img src="./images/s5pliq-mpdu.7DeUg.jpg" alt="Profile" class="profile-photo">
+            </div>
         </div>
-        <div class="box2">
-            <img src="gggg.jpg" alt="photo">
+    </header>
+    <main class="main">
+        <div class="container">
+            <div id="contacts">
+                <ul class="contact-list">
+                    <li class="contact-item">E-mail: <a href="mailto:nata22011997@gmail.com" title="e-mail" class="contact-link">nata22011997@gmail.com</a></li>
+                    <li class="contact-item">Telegram: <a href="https://t.me/verbena336" title="telegram" class="contact-link">Natalia_Byzova</a></li>
+                    <li class="contact-item">Discord: <a href="https://discord.com/channels/@7068" title="discord" class="contact-link">Вербена#7068</a></li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <div class="section-small" id="education"><h2 class="section-title">Education</h2>
+                    <ul class="education-list">
+                        <li class="education-item">St.Petersburg Conservatory</li>
+                        <li class="education-item">Code-basics <a href="https://ru.code-basics.com/languages/html" class="education-link">HTML Course</a></li>
+                        <li class="education-item">Code-basics <a href="https://ru.code-basics.com/languages/css" class="education-link">CSS Course</a></li>
+                        <li class="education-item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                        <li class="education-item">Hexlet <a href="https://ru.hexlet.io/courses/intro_to_git" class="education-link">Git Course</a> (in progress)</li>
+                    </ul>
+                </div>
+                <div class="section-big" id="about"><h2 class="section-title">About Me</h2>
+                    <p>In my current day job, I'm a violinist in the orchestra of the <br>
+                        St. Petersburg Philharmonic for children and youth. 
+                        Although my profession is not related to programming, 
+                        the teamwork skills, the experience of working in an international orchestra
+                        and the perseverance that I have gained are very useful.</p>
+                        <p>I really love to study, to learn something new every day.
+                        That's why I decided to get a second profession.</p>
+                </div>
+                <div class="section-small" id="skills"><h2 class="section-title">Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-item">HTML</li>
+                        <li class="skills-item">CSS</li>
+                        <li class="skills-item">GitHub</li>
+                        <li class="skills-item">Git</li>
+                        <li class="skills-item">VSCode</li>
+                    </ul>
+                </div>
+                <div class="section-big" id="code"><h2 class="section-title">Code example</h2>
+                    <div class="code-example">
+                        <pre>
+                            <code>
+.profile {
+display: flex;
+justify-content: space-around;
+align-items: stretch;
+}                           </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="section-small" id="project"><h2 class="section-title">Project</h2>
+                    <a href="https://Verbena336.github.io/rsschool-cv/" class="cv-project">
+                    <img src="./images/Screenshot.png" alt="Project" class="project-image"></a>
+                </div>
+                <div class="section-big" id="languages"><h2 class="section-title">Languages</h2>
+                    <ul class="languages-list">
+                        <li class="languages-item">Russian - native</li>
+                        <li class="languages-item">English - B1</li>
+                        <li class="languages-item">Japanese - N5</li>
+                    </ul>
+                </div>
+            </div> 
         </div>
-    </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+               <div class="year">© 2022</div>
+               <a href="https://github.com/Verbena336" class="github"></a>
+               <a href="https://rs.school/js/" class="rs-logo"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
