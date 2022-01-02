@@ -336,7 +336,7 @@ body {
 .github {
     width: 60px;
     height: 60px;
-    background-image: url(./assets/images/github.png);
+    background-image: url(./images/icons/github.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -344,7 +344,7 @@ body {
 .rs-logo {
     width: 121px;
     height: 45px;
-    background-image: url(./assets/images/rs_school_js.svg);
+    background-image: url(./images/icons/rs_school_js.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
